@@ -401,6 +401,13 @@ section {
     margin-bottom: 5px;
 }
 
+.work-item .description {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
 /* 荣誉奖项 */
 .awards-content {
     background: var(--bg-secondary);

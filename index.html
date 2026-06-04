@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张梓宇 - AI自动化工程师 & Python开发者</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">张梓宇<span class="highlight">.</span></a>
+            <div class="nav-menu">
+                <a href="#about" class="nav-link">关于我</a>
+                <a href="#skills" class="nav-link">技能</a>
+                <a href="#projects" class="nav-link">项目</a>
+                <a href="#portfolio" class="nav-link">作品</a>
+                <a href="#contact" class="nav-link">联系</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主页 -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">你好，我是<span class="highlight">张梓宇</span></h1>
+                <h2 class="hero-subtitle">AI自动化工程师 & Python开发者</h2>
+                <p class="hero-description">专注于AI工作流设计、自动化系统开发和数据驱动决策。用技术提升效率，用创新解决问题。</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">查看项目</a>
+                    <a href="#contact" class="btn btn-secondary">联系我</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">年经验</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">项目</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">效率提升</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-block">
+                    <div class="code-header">
+                        <div class="dot red"></div>
+                        <div class="dot yellow"></div>
+                        <div class="dot green"></div>
+                        <span class="code-title">automation.py</span>
+                    </div>
+                    <pre class="code-content"><code><span class="keyword">import</span> <span class="module">workbuddy</span>
+
+<span class="keyword">class</span> <span class="class">AIAutomation</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(self):
+        self.tools = [<span class="string">"WebSearch"</span>, <span class="string">"AI分析"</span>, <span class="string">"自动化"</span>]
+    
+    <span class="keyword">def</span> <span class="function">run_workflow</span>(self):
+        <span class="comment"># 每日行业情报自动化</span>
+        data = self.search_news()
+        analysis = self.ai_analyze(data)
+        self.generate_report(analysis)
+        <span class="keyword">return</span> <span class="string">"效率提升95%+"</span></code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">关于我</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">我是一名专注于AI自动化和Python开发的工程师，致力于通过技术手段提升工作效率和解决复杂问题。</p>
+                    <p>拥有4年以上的开发经验，擅长设计和实现AI工作流自动化系统。在团购行业、数据分析、RPA自动化等领域有丰富的实战经验。</p>
+                    <p>我相信技术应该为人服务，而不是增加复杂性。我的工作重点是让重复性工作自动化，让人类专注于创造性任务。</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>深圳宝安区</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>775878365@qq.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <span>18319869683</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>广东科学技术职业学院</h3>
+                                <p>计算机网络技术 · 全日制专科</p>
+                                <span class="timeline-date">2018/09 - 2020/12</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>广东石油化工学院</h3>
+                                <p>网络工程 · 全日制本科 · GPA 3.53/4.0</p>
+                                <span class="timeline-date">2023/09 - 2025/06</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>AI自动化工程师</h3>
+                                <p>专注于AI工作流设计与自动化系统开发</p>
+                                <span class="timeline-date">2025 - 至今</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">专业技能</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-code"></i> 编程语言</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">高级</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Go</span>
+                                <span class="skill-level">中级</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-level">熟练</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-robot"></i> AI & 自动化</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">AI工作流设计</span>
+                                <span class="skill-level">专家</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">WorkBuddy/OpenClaw</span>
+                                <span class="skill-level">熟练</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">RPA自动化</span>
+                                <span class="skill-level">熟练</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-tools"></i> 工具 & 平台</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Cursor AI</span>
+                                <span class="skill-level">熟练</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Claude Code/Codex</span>
+                                <span class="skill-level">熟练</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">飞书生态</span>
+                                <span class="skill-level">熟练</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-chart-line"></i> 数据 & 分析</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">数据分析</span>
+                                <span class="skill-level">熟练</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">自动化脚本</span>
+                                <span class="skill-level">专家</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">系统运维</span>
+                                <span class="skill-level">熟练</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">项目经验</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI工作流自动化系统</h3>
+                        <p class="project-description">设计并实现了一套完整的AI工作流自动化系统，覆盖情报采集、内容生产、竞品监控全链路。通过自动化将每周12小时的重复性工作压缩到45分钟，效率提升94%+。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WorkBuddy</span>
+                            <span class="tech-tag">AI Agent</span>
+                            <span class="tech-tag">自动化</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">团购行业市场调研报告</h3>
+                        <p class="project-description">为深圳杰彬品牌咨询有限公司定制的行业全景分析报告，涵盖市场规模、竞争格局、用户画像、AI+团购趋势等维度，展示了从数据采集到策略输出的完整能力链。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">市场调研</span>
+                            <span class="tech-tag">数据分析</span>
+                            <span class="tech-tag">AI工具</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">可转债日内策略系统</h3>
+                        <p class="project-description">基于Python的可转债日内交易策略系统，实时采集5分钟K线数据，自动计算MACD/KDJ/RSI/CCI等技术指标信号，支持QMT量化平台自动执行。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">量化交易</span>
+                            <span class="tech-tag">技术分析</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">自动化简报生成系统</h3>
+                        <p class="project-description">自动简报生成系统，覆盖6个数据源（RSS/Twitter KOL/Reddit/GitHub等），50+个关键词自动采集，自动去重+重要性评分，生成结构化摘要并定时推送到微信群。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">自动化</span>
+                            <span class="tech-tag">数据采集</span>
+                            <span class="tech-tag">AI分析</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SBTI阳光版答题系统</h3>
+                        <p class="project-description">基于AI的答题系统，1小时完成开发，包含5000+题目生成，自动判断对错，支持多种题型。已开源到GitHub，展示了快速原型开发能力。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">快速原型</span>
+                            <span class="tech-tag">开源</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Web安全扫描工具</h3>
+                        <p class="project-description">基于Go语言的Web安全扫描工具，用于检测SQL注入、XSS漏洞等Web安全风险。使用Cursor AI辅助开发，验证了AI编程工具在安全领域的应用。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Go</span>
+                            <span class="tech-tag">安全</span>
+                            <span class="tech-tag">Cursor AI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品展示 -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">作品展示</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="portfolio-tabs">
+                <button class="tab-btn active" data-tab="all">全部</button>
+                <button class="tab-btn" data-tab="documents">文档</button>
+                <button class="tab-btn" data-tab="presentations">PPT</button>
+                <button class="tab-btn" data-tab="media">媒体</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="documents">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>AI工作流设计文档</h4>
+                            <p>完整的AI工作流设计与实施方案</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-eye"></i> 查看</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="documents">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>团购行业市场调研报告</h4>
+                            <p>为品牌咨询公司定制的行业分析</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-eye"></i> 查看</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="presentations">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>AI赋能团购品牌营销方案</h4>
+                            <p>40MB的完整营销方案PPT</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-eye"></i> 查看</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="presentations">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>Image2PPT演示</h4>
+                            <p>图片转PPT的自动化工具演示</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-eye"></i> 查看</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="media">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>产品介绍视频</h4>
+                            <p>水杯/耳机产品介绍视频</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-play"></i> 播放</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="media">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>创意视频</h4>
+                            <p>轻松舞蹈等创意视频内容</p>
+                            <a href="#" class="portfolio-link"><i class="fas fa-play"></i> 播放</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">联系我</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>让我们一起创造</h3>
+                    <p>如果您对我的项目感兴趣，或者有任何合作机会，欢迎随时联系我。</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>775878365@qq.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>18319869683</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>深圳宝安区</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-qq"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="您的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="您的消息" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">张梓宇<span class="highlight">.</span></div>
+                <p class="footer-text">AI自动化工程师 & Python开发者</p>
+                <div class="footer-links">
+                    <a href="#about">关于我</a>
+                    <a href="#skills">技能</a>
+                    <a href="#projects">项目</a>
+                    <a href="#portfolio">作品</a>
+                    <a href="#contact">联系</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-weixin"></i></a>
+                    <a href="#"><i class="fab fa-qq"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 张梓宇. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
